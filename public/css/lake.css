@@ -1,0 +1,61 @@
+header{
+	height: 100vh;
+}
+
+main{
+	padding: 80px 0;
+}
+
+.carousel, .carousel-inner, .carousel-inner .item{
+	height: 100%; !important;
+}
+
+.carousel-inner .overlay{
+	color: white;
+	font-weight: 900;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.55);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+/*COLOUR*/
+.c-orange{
+	color: orange
+}
+
+.overlay_heading{
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.carousel-inner > .item > img  {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.tiles [class=*='col-']{
+	padding: 0 5px !important;
+}
+
+
+.tiles .thumbnail{
+	boarder: none !important;
+	padding: 0;
+	margin-bottom: 10px;
+	height: 300px;
+
+}
+
+.tiles .thumbnail img{
+	width: 100%;
+	height: 100%;
+}
